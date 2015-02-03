@@ -23,8 +23,10 @@ mkdir -p ${DESTDIR}${BINPATH}
 mkdir -p ${DESTDIR}${LIBPATH}
 mkdir -p ${DESTDIR}${SYSCONFDIR}
 
-PREPACKAGED="target/kafka-rest-${VERSION}-package"
+PREPACKAGED="camus-example/target/"
 pushd ${PREPACKAGED}
-find . -type f | grep -v README[.]rpm | grep ^[.]/bin/ | xargs -I XXX ${INSTALL_X} -o root -g root XXX ${DESTDIR}${PREFIX}/XXX
-find . -type f | grep -v README[.]rpm | grep -v ^[.]/bin/ | xargs -I XXX ${INSTALL} -o root -g root XXX ${DESTDIR}${PREFIX}/XXX
+find . -type f | grep *shaded[.]jar | xargs -I XXX ${INSTALL_X} -o root -g root XXX ${DESTDIR}${LIBPATH}/XXX
+cd classes 
+find . -type f | grep -E "^*[.]properties|xml" | xargs -I XXX ${INSTALL_X} -o root -g root XXX ${DESTDIR}${SYSCONFDIR}/XXX
+cd ..
 popd
