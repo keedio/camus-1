@@ -1,0 +1,55 @@
+Summary: Camus
+Name: confluent-camus
+Version: ##RPMVERSION##
+Release: ##RPMRELEASE##
+Group: Applications/Internet
+License: Apache (v2)
+Source0: confluent-camus-%{version}.tar.gz
+URL: http://confluent.io
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
+Vendor: Confluent, Inc.
+Packager: Liquan Pei <liquan@confluent.io>
+BuildArch: noarch
+
+Requires: java >= 1.6
+
+%description
+Camus is a Kafka to HDFS connector. It uses MapReduce to load data out of Kafka to HDFS in a distributed way.
+
+%pre
+
+exit 0
+
+%post
+
+%preun
+
+%postun
+
+%prep
+
+%setup
+
+%build
+
+%install
+
+# Clean out any previous builds not on slash
+[ "%{buildroot}" != "/" ] && %{__rm} -rf %{buildroot}
+
+%{__mkdir_p} %{buildroot}
+%{__cp} -R * %{buildroot}
+# The spec file gets included, get rid of it
+%{__rm} %{buildroot}/confluent-camus.spec
+
+%files
+%defattr(-,root,root)
+/usr/share/camus/
+/etc/camus/
+%clean
+#used to cleanup things outside the build area and possibly inside.
+[ "%{buildroot}" != "/" ] && %{__rm} -rf %{buildroot}
+
+%changelog
+* Tue Feb 3 2015 Liquan Pei <liquan@confluent.io>
+- Initial import
