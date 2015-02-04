@@ -11,8 +11,8 @@ ifndef VERSION
 VERSION=$(shell grep version pom.xml | head -n 1 | awk -F'>|<' '{ print $$3 }')
 endif
 
-export PACKAGE_TITLE=kafka-rest
-export FULL_PACKAGE_TITLE=confluent-kafka-rest
+export PACKAGE_TITLE=camus
+export FULL_PACKAGE_TITLE=confluent-camus
 export PACKAGE_NAME=$(FULL_PACKAGE_TITLE)-$(VERSION)
 
 # Defaults that are likely to vary by platform. These are cleanly separated so
@@ -70,7 +70,7 @@ ifeq ($(APPLY_PATCHES),yes)
 endif
 
 build: apply-patches
-	mvn install
+	mvn install -DskipTests
 
 
 install: build
@@ -83,6 +83,8 @@ clean:
 	rm -rf RPM_BUILDING
 
 distclean: clean
+	git reset --hard HEAD
+	git status --ignored --porcelain | cut -d ' ' -f 2 | xargs rm -rf
 
 test:
 

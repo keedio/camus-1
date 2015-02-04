@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: kafka-rest
-Source: https://github.com/confluentinc/kafka-rest
+Upstream-Name: camus
+Source: https://github.com/confluentinc/camus
 
 Files: *
 Copyright: 2014 Confluent, Inc.
