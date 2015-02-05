@@ -44,7 +44,7 @@ exit 0
 
 %files
 %defattr(-,root,root)
-/usr/share/camus/
+/usr/share/java/camus/
 /etc/camus/
 %clean
 #used to cleanup things outside the build area and possibly inside.
