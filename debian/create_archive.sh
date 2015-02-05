@@ -11,7 +11,7 @@ if [ -z ${PACKAGE_TITLE} -o -z ${VERSION} -o -z ${DESTDIR} ]; then
 fi
 
 BINPATH=${PREFIX}/bin
-LIBPATH=${PREFIX}/share/${PACKAGE_TITLE}
+LIBPATH=${PREFIX}/share/java/${PACKAGE_TITLE}
 DOCPATH=${PREFIX}/share/doc/${PACKAGE_TITLE}
 
 INSTALL="install -D -m 644"
@@ -25,8 +25,8 @@ mkdir -p ${DESTDIR}${SYSCONFDIR}
 
 PREPACKAGED="camus-example/target/"
 pushd ${PREPACKAGED}
-find . -type f | grep *shaded[.]jar | xargs -I XXX ${INSTALL_X} -o root -g root XXX ${DESTDIR}${LIBPATH}/XXX
-cd classes 
+find . -type f | grep shaded[.]jar | xargs -I XXX ${INSTALL_X} -o root -g root XXX ${DESTDIR}${LIBPATH}/XXX
+cd classes
 find . -type f | grep -E "^*[.]properties|xml" | xargs -I XXX ${INSTALL_X} -o root -g root XXX ${DESTDIR}${SYSCONFDIR}/XXX
 cd ..
 popd

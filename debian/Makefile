@@ -64,10 +64,10 @@ archive: install
 	rm -f $(CURDIR)/$(PACKAGE_NAME).zip && cd $(DESTDIR) && zip -r $(CURDIR)/$(PACKAGE_NAME).zip $(PREFIX)
 
 apply-patches: $(wildcard patches/*)
-ifeq ($(APPLY_PATCHES),yes)
-	git reset --hard HEAD
-	cat patches/series | xargs -iPATCH bash -c 'patch -p1 < patches/PATCH'
-endif
+#ifeq ($(APPLY_PATCHES),yes)
+#	git reset --hard HEAD
+#	cat patches/series | xargs -iPATCH bash -c 'patch -p1 < patches/PATCH'
+#endif
 
 build: apply-patches
 	mvn install -DskipTests
