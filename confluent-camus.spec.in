@@ -16,6 +16,8 @@ Requires: java >= 1.6
 %description
 Camus is a Kafka to HDFS connector. It uses MapReduce to load data out of Kafka to HDFS in a distributed way.
 
+%define __jar_repack %{nil}
+
 %pre
 
 exit 0
