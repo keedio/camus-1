@@ -9,7 +9,5 @@ Homepage: http://confluent.io
 
 Package: confluent-camus
 Architecture: all
-Depends: java6-runtime, ${java:Depends}, ${misc:Depends}
-Recommends: ${java:Recommends}
 Description: Camus is a Kafka to HDFS connector.
  It uses MapReduce to load data out of Kafka to HDFS in a distributed way.
