@@ -11,8 +11,6 @@ Vendor: Confluent, Inc.
 Packager: Liquan Pei <liquan@confluent.io>
 BuildArch: noarch
 
-Requires: java >= 1.6
-
 %description
 Camus is a Kafka to HDFS connector. It uses MapReduce to load data out of Kafka to HDFS in a distributed way.
 
