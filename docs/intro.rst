@@ -4,11 +4,11 @@ Camus
 =====
 
 Camus is a simple MapReduce job developed by LinkedIn to load data from Kafka into HDFS.
-It is capable of incrementally copying data form Kafka into HDFS such that
+It is capable of incrementally copying data from Kafka into HDFS such that
 every run of the MapReduce job picks up where the previous run left off.
 At LinkedIn, Camus is used to load billions of messages per day from Kafka into HDFS.
-Confluent's version of Camus integrates with Confluent's Schema Registry which
-ensures data compatibility when loading to HDFS as schemas are evolved.
+Confluent's version of Camus integrates with Confluent's Schema Registry, which
+ensures data compatibility when loading to HDFS as schemas evolve.
 
 Key Features
 ------------
