@@ -1,3 +1,5 @@
+.. _camus_intro:
+
 Camus
 =====
 
@@ -56,23 +58,9 @@ the Camus's jar is under ``/usr/share/java/camus/``.
 Also, you need to have access to a Hadoop Cluster. For installation and deployment of a single node
 Hadoop in pseudo-distributed mode, see this
 `guide <http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_cdh5_pseudo.html>`_.
+Finally, you should have Kafka and the Schema Registry running.
 
 .. sourcecode:: bash
-
-   # Start a testing local Kafka cluster (1 Zookeeper node, 1 Kafka node)
-   $ cd kafka
-   $ bin/zookeeper-server-start.sh config/zookeeper.properties
-   $ bin/kafka-server-start.sh config/server.properties
-   # Create testAvro topic in Kafka
-   $ bin/kafka-topics.sh --create --zookeeper localhost:2181 \
-         --topic testAvro --partitions 1 --replication-factor 1
-   $ cd ..
-
-   # Start Schema Registry. The default schema registry settings
-   # automatically work with the default settings of ZooKeeper and Kafka.
-   $ cd schema-registry
-   $ bin/schema-registry-start config/schema-registry.properties
-   $ cd ..
 
    # Assuming that you have hadoop on your PATH, and make sure that
    # schema.registry.url points to the correct address.
@@ -83,11 +71,31 @@ Hadoop in pseudo-distributed mode, see this
 Installation
 ------------
 
-You can download Confluent Platform at .... And follow the instructions to install from
-rpm, deb or archives.
+.. ifconfig:: platform_docs
+
+   See the :ref:`installation instructions<installation>` for the Confluent
+   Platform. Before starting a Camus job you must have Haddop, Kafka, and the
+   Schema Registry running. The :ref:`Confluent Platform quickstart<quickstart>`
+   explains how to start Kafka and the Schema Registry locally for testing.
+   See this
+   `guide <http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_cdh5_pseudo.html>`_.
+   to setup a single Hadoop node in pseudo-distributed mode.
+
+.. ifconfig:: not platform_docs
+
+   You can download prebuilt versions of Camus as part of the
+   `Confluent Platform <http://confluent.io/downloads/>`_. To install from
+   source, follow the instructions in the `Development`_ section.
+   Before starting a Camus job you must have Haddop, Kafka, and the
+   Schema Registry running. You can find instructions for Kafka and the Schema
+   Registry in the `Schema Registry repository <http://github.com/confluentinc/schema-registry>`_.
+   This `guide <http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_cdh5_pseudo.html>`_.
+   to setup a single Hadoop node in pseudo-distributed mode.
+
 
 Deployment
 ----------
+
 Camus can be run from the command line. You will need to set some configurations either by specifying a
 properties file on the classpath using ``-p`` (filename), or an external properties file using ``-P``
 (path to local file system, or to hdfs),
@@ -95,7 +103,6 @@ or from the command line using ``-D property=value``.
 If the same property is set with multiple methods,
 the order of precedence is command-line properties, external properties file and
 classpath properties file. You can find a list of settings in :ref:`configuration section<camus_config>` .
-
 
 .. sourcecode:: bash
 
@@ -107,13 +114,10 @@ classpath properties file. You can find a list of settings in :ref:`configuratio
 Development
 -----------
 
-To build a development version of Camus, you need to get development versions of
-`common <https://github.com/confluentinc/common>`_,
-`rest-utils <https://github.com/confluentinc/rest-utils>`_ and
-`schema-registry <https://github.com/confluentinc/schema-registry>`_ from https://github.com/confluentinc
-and install them into local Maven repository. Once the dependencies are installed, you can build
+To build a development version of Camus, you need to get development version of the
+`Schema Registry <https://github.com/confluentinc/schema-registry>`_ and its dependencies
+and install it into local Maven repository. Once the dependencies are installed, you can build
 Confluent version of Camus as follows:
-
 
 .. sourcecode:: bash
 
@@ -123,12 +127,14 @@ Confluent version of Camus as follows:
 
 Requirements
 ------------
-- Hadoop: Camus works with both MRv1 and YARN. For Hadoop distribution, we recommend CDH 5.3.0
+
+- Hadoop: Camus works with both MRv1 and YARN. We recommend CDH 5.3.0
 - Kafka: 0.8.2.0
 - Schema Registry: Confluent Schema Registry 1.0
 
 Contribute
 ----------
+
 - Upstream Repository: https://github.com/linkedin/camus
 - Source Code: https://github.com/confluentinc/camus
 - Issue Tracker: https://github.com/confluentinc/camus/issues
