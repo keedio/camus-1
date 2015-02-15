@@ -28,5 +28,5 @@ how these configurations work, and why they are needed.
        exceptions. The default behavior is that Camus catches exceptions when decoding data and
        write them to the error file associated with the Camus job. This is reasonable as we don't
        want a single bad record to fail the Camus job. However, if you want to ensure data
-       compatibility, you may want to set this configuration with value ``true` to make sure that a
+       compatibility, you may want to set this configuration with value ``true`` to make sure that a
        Camus job fails in case of exceptions.
