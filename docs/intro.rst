@@ -6,7 +6,8 @@ It is capable of incrementally copying data form Kafka into HDFS such that
 every run of the MapReduce job picks up where the previous run left off.
 At LinkedIn, Camus is used to load billions of messages per day from Kafka into HDFS.
 Confluent's version of Camus integrates with Confluent's Schema Registry which
-ensures data compatibility when loading to HDFS as schemas are evolved.
+ensures data compatibility when loading to HDFS as schemas are evolved. You can find the design
+and architecture of Camus in the :ref:`design section<camus_design>` .
 
 Key Features
 ------------
@@ -23,27 +24,17 @@ Key Features
        to provide fault tolerance on Zookeeper and Kafka failures. It also uses temp work directory
        to ensure consistency between Kafka and HDFS.
 
-    #. Customizability: Many components of Camus is customizable. Camus provides interfaces for
+    #. Customizability: Many components of Camus are customizable. Camus provides interfaces for
        customized implementations of message decoder, data writer, data partitioner and
        work allocator.
 
     #. Load balance: Camus evenly assigns data to MapReduce tasks based on the size of
-       each topic partitions. Moreover, as Camus jobs use temp working directories, speculation execution
+       each topic partitions. Moreover, as Camus jobs use temp working directories, speculative execution
        can be effective for straggler migration.
 
     #. Low operation overhead: Camus offers configurations to balance contention between topics and to
        control the Camus job behavior in case of incompatible data. By default, Camus will not
        fail the MapReduce job in case of incompatible data.
-
-Design
-------
-
-Data loading from Kafka to HDFS is done within a single MapReduce job divided into three stages:
-
-#. Setup stage: Fetches topics and partitions from Zookeeper and latest offsets from Kafka.
-#. Hadoop stage: Allocates a set of MapReduce tasks to pull data from Kafka.
-#. Cleanup stage: Collects statistics from MapReduce tasks and submits them to Kafka for consumption
-   by other systems.
 
 Quickstart
 ----------
@@ -79,6 +70,18 @@ Hadoop in pseudo-distributed mode, see this
    $ cd camus
    $ hadoop jar confluent-camus-1.0-shaded.jar com.linkedin.camus.etl.kafka.CamusJob \
      -D schema.registry.url=http://localhost:8081 -P etc/camus.properties
+
+
+
+Once the Camus job is successfully completed, a couple of Avro files are created under
+the topic output directory in sub-directories for each topic and date partition.
+One example of full filename is
+``/user/username/topics/testAvro/hourly/2015/02/16/15/testAvro.1.0.10.11.1424127600000.avro``.
+The filename is ``.`` separated format that embeds metadata as
+``TopicName.BrokerId.PartitionId.NumberRecords.FinalOffset.UTC``.
+
+You may use Hive or other tools to perform offline analysis on the ingested Avro files.
+
 
 Installation
 ------------
