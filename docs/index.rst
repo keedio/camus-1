@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Camus
-================
+=====
 
 Contents:
 
@@ -13,4 +13,5 @@ Contents:
 
    intro
    config
-   operations 
+   design
+   operations

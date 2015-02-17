@@ -1,9 +1,9 @@
 .. _camus_operations:
 
-Camus Operations
-================
+Operations
+==========
 
-In this document, you will learn how to use Camus in production.
+In this section, you will learn how to use Camus in production.
 
 .. toctree::
    :maxdepth: 3

@@ -1,5 +1,5 @@
-Operations Related Configurations
----------------------------------
+Important Configuration Options
+-------------------------------
 
 Camus provides configurations to reduce overhead in operations. Below is an explanation of
 how these configurations work, and why they are needed.
