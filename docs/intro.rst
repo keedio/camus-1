@@ -55,10 +55,19 @@ of Camus's jar file when running the MapReduce job. If you install Camus via zip
 you can find Camus's jar under ``share/java/camus/``. If you install Camus via rpm or deb,
 the Camus's jar is under ``/usr/share/java/camus/``.
 
-Also, you need to have access to a Hadoop Cluster. For installation and deployment of a single node
-Hadoop in pseudo-distributed mode, see this
-`guide <http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_cdh5_pseudo.html>`_.
-Finally, you should have Kafka and the Schema Registry running.
+.. ifconfig:: platform_docs
+
+   Also, you need to have access to a Hadoop Cluster. For installation and deployment of a single node
+   Hadoop in pseudo-distributed mode, see this
+   `guide <http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_cdh5_pseudo.html>`_.
+   Finally, you should have :ref:`Kafka and the Schema Registry running<quickstart>` .
+
+.. ifconfig:: not platform_docs
+
+   Also, you need to have access to a Hadoop Cluster. For installation and deployment of a single node
+   Hadoop in pseudo-distributed mode, see this
+   `guide <http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_cdh5_pseudo.html>`_.
+   Finally, you should have Kafka and the Schema Registry running.
 
 .. sourcecode:: bash
 
@@ -78,7 +87,7 @@ Installation
    Schema Registry running. The :ref:`Confluent Platform quickstart<quickstart>`
    explains how to start Kafka and the Schema Registry locally for testing.
    See this
-   `guide <http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_cdh5_pseudo.html>`_.
+   `guide <http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_cdh5_pseudo.html>`_
    to setup a single Hadoop node in pseudo-distributed mode.
 
 .. ifconfig:: not platform_docs
