@@ -51,34 +51,4 @@
 
 	</dependencies>
 
-	<build>
-		<finalName>${project.artifactId}-${project.version}</finalName>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-shade-plugin</artifactId>
-				<version>1.7.1</version>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>shade</goal>
-						</goals>
-						<configuration>
-							<artifactSet>
-								<includes>
-									<include>com.thoughtworks.paranamer:paranamer:*</include>
-									<include>log4j:log4j:*</include>
-									<include>joda-time:joda-time:jar:*</include>
-									<include>org.apache.avro:avro:*</include>
-									<include>org.apache.avro:avro-mapred:*</include>
-								</includes>
-							</artifactSet>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
-
 </project>
