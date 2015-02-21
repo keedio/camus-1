@@ -41,34 +41,36 @@ Key Features
 Quickstart
 ----------
 
-Assuming you have already installed Confluent Platform. You'll need to specify the location
-of Camus's jar file when running the MapReduce job. If you install Camus via zip/tgz archive,
-you can find Camus's jar under ``share/java/camus/``. If you install Camus via rpm or deb,
-the Camus's jar is under ``/usr/share/java/camus/``.
-
 .. ifconfig:: platform_docs
 
-   Also, you need to have access to a Hadoop Cluster. For installation and deployment of a single node
+   These instructions assume you have already installed Confluent Platform and that
+   you have access to a Hadoop Cluster. For installation and deployment of a single node
    Hadoop in pseudo-distributed mode, see this
    `guide <http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_cdh5_pseudo.html>`_.
    Finally, you should have :ref:`Kafka and the Schema Registry running<quickstart>` .
 
 .. ifconfig:: not platform_docs
 
-   Also, you need to have access to a Hadoop Cluster. For installation and deployment of a single node
+   These instructions assume you have already installed Confluent Platform and that
+   you have access to a Hadoop Cluster. For installation and deployment of a single node
    Hadoop in pseudo-distributed mode, see this
    `guide <http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_cdh5_pseudo.html>`_.
    Finally, you should have Kafka and the Schema Registry running.
 
+The recommended way to run a Camus job is via a small wrapper script, ``bin/camus-run``. It
+sets the environment variables and passes the arguments required to get all the jars deployed
+correctly and ensures the Camus jars are given priority, which ensures compatibility across a
+variety of Hadoop distributions.
+
 .. sourcecode:: bash
 
-   # Assuming that you have hadoop on your PATH, and make sure that
+   # Assuming that you have hadoop on your PATH, HADOOP_CONF_DIR is properly configured, and that
    # schema.registry.url points to the correct address.
    $ cd camus
-   $ hadoop jar confluent-camus-1.0-shaded.jar com.linkedin.camus.etl.kafka.CamusJob \
-     -D schema.registry.url=http://localhost:8081 -P etc/camus.properties
+   $ bin/camus-run -D schema.registry.url=http://localhost:8081 -P etc/camus.properties
 
-
+If you need more control over how the job is executed, see the `Deployment`_ section for more
+details about required configuration.
 
 Once the Camus job is successfully completed, a couple of Avro files are created under
 the topic output directory in sub-directories for each topic and date partition.
@@ -116,12 +118,37 @@ If the same property is set with multiple methods,
 the order of precedence is command-line properties, external properties file and
 classpath properties file. You can find a list of settings in :ref:`configuration section<camus_config>` .
 
+The recommended deployment method is to use the ``camus-run`` script to initiate the MapReduce job:
+
 .. sourcecode:: bash
 
-   $ hadoop jar confluent-camus-1.0-shaded.jar com.linkedin.camus.etl.kafka.CamusJob
-      -D <property=value>
-      -P <path to external properties file>
+   $ bin/camus-run -D <property=value> \
+      -P <path to external properties file> \
       -p <path to properties file from classpath>
+
+If you need more control you can run the job yourself, but will have to configure some parameters
+and environment variables yourself (or reuse the ``bin/camus-config`` script to generate the
+configs without running the job). If you install Camus via zip/tgz archive,
+you can find Camus's jar files under ``share/java/camus/``. If you install Camus via rpm or deb,
+the Camus's jar files under ``/usr/share/java/camus/``.
+
+.. sourcecode:: bash
+
+   # Assuming:
+   # 1. hadoop is on your PATH
+   # 2. HADOOP_CLASSPATH includes all the Camus jars
+   # 3. HADOOP_USER_CLASSPATH_FIRST=true
+   # 4. CAMUS_LIBJARS contains the comma-separated list of all Camus jars
+
+   $ hadoop jar confluent-camus-$VERSION.jar com.linkedin.camus.etl.kafka.CamusJob \
+      -libjars $CAMUS_LIBJARS -D mapreduce.job.user.classpath.first=true \
+      -D <property=value> \
+      -P <path to external properties file> \
+      -p <path to properties file from classpath>
+
+
+For some Hadoop distributions, you may be able to remove some of these settings to simplify the
+command.
 
 Development
 -----------
