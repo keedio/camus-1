@@ -32,6 +32,10 @@
         <dependencySet>
             <outputDirectory>share/java/camus</outputDirectory>
             <useProjectArtifact>true</useProjectArtifact>
+            <useTransitiveFiltering>true</useTransitiveFiltering>
+            <excludes>
+                <exclude>org.apache.hadoop:hadoop-client</exclude>
+            </excludes>
         </dependencySet>
     </dependencySets>
 </assembly>
