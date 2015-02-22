@@ -12,7 +12,7 @@
     <includeBaseDirectory>false</includeBaseDirectory>
     <fileSets>
         <fileSet>
-            <directory>${project.basedir}</directory>
+            <directory>${project.parent.basedir}</directory>
             <outputDirectory>share/doc/camus/</outputDirectory>
             <includes>
                 <include>README*</include>
@@ -21,7 +21,7 @@
             </includes>
         </fileSet>
         <fileSet>
-            <directory>${project.basedir}</directory>
+            <directory>${project.parent.basedir}</directory>
             <outputDirectory>/</outputDirectory>
             <includes>
                 <include>bin/*</include>
@@ -32,6 +32,7 @@
         <dependencySet>
             <outputDirectory>share/java/camus</outputDirectory>
             <useProjectArtifact>true</useProjectArtifact>
+            <scope>runtime</scope>
             <useTransitiveFiltering>true</useTransitiveFiltering>
             <excludes>
                 <exclude>org.apache.hadoop:hadoop-client</exclude>
