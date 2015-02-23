@@ -127,10 +127,24 @@ The recommended deployment method is to use the ``camus-run`` script to initiate
       -p <path to properties file from classpath>
 
 If you need more control you can run the job yourself, but will have to configure some parameters
-and environment variables yourself (or reuse the ``bin/camus-config`` script to generate the
-configs without running the job). If you install Camus via zip/tgz archive,
+and environment variables yourself. You may want to reuse the ``bin/camus-config`` script to generate the
+configs without running the job. That script should be sourced into your script
+and sets up four environment variables:
+
+#. ``HADOOP_CLASSPATH`` is updated to include the jars for Camus and its dependencies
+#. ``CAMUS_LIBJARS`` contains a comma separated list of the jars for Camus and
+   its dependencies, suitable for use as the value of the ``-libjars`` option
+#. ``CAMUS_JAR`` is set to the primary Camus jar, which is the jar file you
+   should pass as the first argument to ``hadoop jar``
+#. ``HADOOP_USER_CLASSPATH_FIRST`` is set to true to ensure versions of
+   libraries included with the Hadoop distribution do not conflict with versions
+   required by Camus
+
+If you do not use the ``camus-config`` script, you will need to configure these
+settings manually. If you install Camus via zip/tgz archive,
 you can find Camus's jar files under ``share/java/camus/``. If you install Camus via rpm or deb,
-the Camus's jar files under ``/usr/share/java/camus/``.
+the Camus's jar files under ``/usr/share/java/camus/``. After configuring the
+appropriate settings, as listed here, you can run the job with a command like this:
 
 .. sourcecode:: bash
 
@@ -139,7 +153,7 @@ the Camus's jar files under ``/usr/share/java/camus/``.
    # 2. HADOOP_CLASSPATH includes all the Camus jars
    # 3. HADOOP_USER_CLASSPATH_FIRST=true
    # 4. CAMUS_LIBJARS contains the comma-separated list of all Camus jars
-
+   $ cd camus
    $ hadoop jar confluent-camus-$VERSION.jar com.linkedin.camus.etl.kafka.CamusJob \
       -libjars $CAMUS_LIBJARS -D mapreduce.job.user.classpath.first=true \
       -D <property=value> \
@@ -148,7 +162,10 @@ the Camus's jar files under ``/usr/share/java/camus/``.
 
 
 For some Hadoop distributions, you may be able to remove some of these settings to simplify the
-command.
+command. Specifically, the ``HADOOP_USER_CLASSPATH_FIRST`` environment
+variable and the ``mapreduce.job.user.classpath.first`` setting are
+only required when jars included on the classpath by the Hadoop distribution are
+too old to satisfy Camus's requirements.
 
 Development
 -----------
