@@ -181,6 +181,11 @@
 			<id>apache-releases</id>
 			<url>https://repository.apache.org/content/groups/public</url>
 		</repository>
+		<repository>
+			<id>confluent</id>
+			<name>Confluent</name>
+			<url>http://packages.confluent.io/maven/</url>
+		</repository>
 	</repositories>
 
 	<build>
