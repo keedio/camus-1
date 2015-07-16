@@ -16,6 +16,7 @@
 package io.confluent.camus.etl.kafka.coders;
 
 import com.linkedin.camus.coders.CamusWrapper;
+import com.linkedin.camus.coders.Message;
 import com.linkedin.camus.coders.MessageDecoder;
 import com.linkedin.camus.coders.MessageDecoderException;
 
@@ -38,7 +39,7 @@ import io.confluent.kafka.schemaregistry.client.SchemaMetadata;
 import io.confluent.kafka.schemaregistry.client.SchemaRegistryClient;
 import io.confluent.kafka.schemaregistry.client.rest.exceptions.RestClientException;
 
-public class AvroMessageDecoder extends MessageDecoder<byte[], Record> {
+public class AvroMessageDecoder extends MessageDecoder<Message, Record> {
   private static final byte MAGIC_BYTE = 0x0;
   private static final int idSize = 4;
   private static final String SCHEMA_REGISTRY_URL = "schema.registry.url";
@@ -100,12 +101,12 @@ public class AvroMessageDecoder extends MessageDecoder<byte[], Record> {
     }
   }
 
-  private Object deserialize(byte[] payload) throws MessageDecoderException {
+  private Object deserialize(Message message) throws MessageDecoderException {
     try {
-      if (payload == null) {
+      if (message == null || message.getPayload() == null) {
         return null;
       }
-      ByteBuffer buffer = getByteBuffer(payload);
+      ByteBuffer buffer = getByteBuffer(message.getPayload());
       int id = buffer.getInt();
       Schema schema = schemaRegistry.getByID(id);
       if (schema == null)
@@ -152,8 +153,8 @@ public class AvroMessageDecoder extends MessageDecoder<byte[], Record> {
     }
   }
 
-  public CamusWrapper<Record> decode(byte[] payload) {
-    Object object = deserialize(payload);
+  public CamusWrapper<Record> decode(Message message) {
+    Object object = deserialize(message);
     if (object instanceof Record) {
       return new CamusAvroWrapper((Record) object);
     } else {
