@@ -15,6 +15,7 @@
  */
 package io.confluent.camus.etl.kafka.coders;
 
+import com.linkedin.camus.coders.Message;
 import com.linkedin.camus.coders.MessageDecoderException;
 
 import org.apache.avro.Schema;
@@ -24,6 +25,7 @@ import org.apache.avro.generic.IndexedRecord;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.junit.Test;
 
+import java.io.IOException;
 import java.util.Properties;
 
 import io.confluent.camus.etl.kafka.coders.AvroMessageDecoder;
@@ -81,6 +83,49 @@ public class AvroMessageDecoderTest {
     return decoder;
   }
 
+    class TestMessage implements Message{
+        byte[] payload;
+
+        public TestMessage(byte[] payload) {
+            this.payload = payload;
+        }
+
+        @Override
+        public byte[] getPayload() {
+            return payload;
+        }
+
+        @Override
+        public byte[] getKey() {
+            return null;
+        }
+
+        @Override
+        public String getTopic() {
+            return null;
+        }
+
+        @Override
+        public long getOffset() {
+            return 0;
+        }
+
+        @Override
+        public int getPartition() {
+            return 0;
+        }
+
+        @Override
+        public long getChecksum() {
+            return 0;
+        }
+
+        @Override
+        public void validate() throws IOException {
+
+        }
+    }
+
   @Test
   public void testAvroDecoder() {
     String topic = "testAvro";
@@ -89,12 +134,12 @@ public class AvroMessageDecoderTest {
     byte[] payload = avroSerializer.serialize(topic, avroRecord);
     AvroMessageDecoder decoder = createAvroDecoder(topic, true, schemaRegistry);
 
-    Object record = decoder.decode(payload).getRecord();
+    Object record = decoder.decode(new TestMessage(payload)).getRecord();
     assertEquals(avroRecord, record);
 
     payload= avroEncoder.toBytes(avroRecord);
     AvroMessageDecoder decoder2 = createAvroDecoder(topic, false, schemaRegistry);
-    record = decoder2.decode(payload).getRecord();
+    record = decoder2.decode(new TestMessage(payload)).getRecord();
     assertEquals(avroRecord, record);
   }
 
@@ -109,11 +154,11 @@ public class AvroMessageDecoderTest {
 
     AvroMessageDecoder decoder = createAvroDecoder(topic, true, schemaRegistry);
     try {
-      decoder.decode(payloadV1).getRecord();
+      decoder.decode(new TestMessage(payloadV1)).getRecord();
     } catch (MessageDecoderException e) {
       fail("Backward compatible schema should be able to decode Avro records with old schema");
     }
-    Object recordV2 = decoder.decode(payloadV2).getRecord();
+    Object recordV2 = decoder.decode(new TestMessage(payloadV2)).getRecord();
 
     assertEquals(avroRecordV2, recordV2);
   }
@@ -126,11 +171,11 @@ public class AvroMessageDecoderTest {
     byte[] payloadV1 = avroSerializer.serialize(topic, avroRecordV1);
     AvroMessageDecoder decoder = createAvroDecoder(topic, true, schemaRegistry);
 
-    decoder.decode(payloadV1);
+    decoder.decode(new TestMessage(payloadV1));
     Object avroRecordV2 = createAvroRecordVersion2();
     byte[] payloadV2 = avroSerializer.serialize(topic, avroRecordV2);
     try {
-      decoder.decode(payloadV2);
+      decoder.decode(new TestMessage(payloadV2));
       fail("AvroMessageDecoder should not be able to decode Avro record with new schema version");
     } catch (MessageDecoderException e) {
       assertEquals(e.getMessage(),
