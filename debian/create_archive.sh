@@ -23,10 +23,11 @@ mkdir -p ${DESTDIR}${BINPATH}
 mkdir -p ${DESTDIR}${LIBPATH}
 mkdir -p ${DESTDIR}${SYSCONFDIR}
 
-PREPACKAGED="camus-example/target/"
+PREPACKAGED="camus-example/target/confluent-camus-${VERSION}-package/"
 pushd ${PREPACKAGED}
-find . -type f | grep shaded[.]jar | xargs -I XXX ${INSTALL_X} -o root -g root XXX ${DESTDIR}${LIBPATH}/XXX
-cd classes
-find . -type f | grep -E "^*[.]properties|xml" | xargs -I XXX ${INSTALL_X} -o root -g root XXX ${DESTDIR}${SYSCONFDIR}/XXX
-cd ..
+find bin/ -type f | xargs -I XXX ${INSTALL_X} -o root -g root XXX ${DESTDIR}${PREFIX}/XXX
+find share/ -type f | xargs -I XXX ${INSTALL} -o root -g root XXX ${DESTDIR}${PREFIX}/XXX
+pushd ../classes
+find . -type f | grep -E "\.(properties|xml)$" | xargs -I XXX ${INSTALL} -o root -g root XXX ${DESTDIR}${SYSCONFDIR}/XXX
+popd
 popd
