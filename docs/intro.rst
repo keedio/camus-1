@@ -188,6 +188,13 @@ Requirements
 - Kafka: Camus works with Kafka 0.8.2.0-cp / 0.8.2.1 or higher.  We recommend 0.8.2.2.
 - Schema Registry: Confluent Schema Registry 1.0 or higher.  We recommended 1.0.1.
 
+Changelog
+---------
+
+New Features in 1.0.1:
+
+- Upgrade to Kafka 0.8.2.2.
+
 Contribute
 ----------
 
