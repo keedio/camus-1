@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.linkedin.camus</groupId>
 		<artifactId>camus-parent</artifactId>
-		<version>1.0.1-SNAPSHOT</version>
+		<version>1.0.1</version>
 	</parent>
 
 	<artifactId>camus-kafka-coders</artifactId>
@@ -15,12 +15,12 @@
 		<dependency>
 			<groupId>io.confluent</groupId>
 			<artifactId>kafka-schema-registry-client</artifactId>
-			<version>1.0.1-SNAPSHOT</version>
+			<version>1.0.1</version>
 		</dependency>
         <dependency>
             <groupId>io.confluent</groupId>
             <artifactId>kafka-avro-serializer</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
+            <version>1.0.1</version>
             <scope>test</scope>
         </dependency>
 		<dependency>
