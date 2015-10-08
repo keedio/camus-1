@@ -1,0 +1,2638 @@
+{
+  "ComputerName": "ComputerName",
+  "Data": [
+    {
+      "SampleDate": "2015-05-28T09:42:00.1248688Z",
+      "Properties": {
+        "CPU": {
+          "Value": 15.47227668762207,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:00.1248688Z"
+        },
+        "UsedRAM": {
+          "Value": 3765,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:00.1268689Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003470650117378682,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:00.127869Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00022104538220446557,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:00.127869Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 344348.4375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:00.1288691Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 127239.96875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:00.1288691Z"
+        },
+        "WiFiBytesSent": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:00.1288691Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:01.1389268Z",
+      "Properties": {
+        "CPU": {
+          "Value": 15.388912200927734,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:01.1389268Z"
+        },
+        "UsedRAM": {
+          "Value": 3765,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:01.1399269Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00041000827332027256,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:01.1409269Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.000900051963981241,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:01.1409269Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 299216.96875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:01.141927Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 48521.50390625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:01.141927Z"
+        },
+        "WiFiBytesReceived": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:01.141927Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:02.1529848Z",
+      "Properties": {
+        "CPU": {
+          "Value": 12.995535850524902,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:02.1529848Z"
+        },
+        "UsedRAM": {
+          "Value": 3765,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:02.1539849Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0005499846884049475,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:02.1539849Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00016840982425492257,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:02.1549849Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 87366.0859375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:02.1549849Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44437.328125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:02.155985Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:03.1670428Z",
+      "Properties": {
+        "CPU": {
+          "Value": 10.477458953857422,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:03.1670428Z"
+        },
+        "UsedRAM": {
+          "Value": 3765,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:03.1710431Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00043332818313501775,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:03.1720431Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.000333326926920563,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:03.1720431Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 370723.125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:03.1730432Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44176.5078125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:03.1760433Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:04.1811008Z",
+      "Properties": {
+        "CPU": {
+          "Value": 8.375819206237793,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:04.1811008Z"
+        },
+        "UsedRAM": {
+          "Value": 3775,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:04.1821009Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00041000827332027256,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:04.1821009Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00018182044732384384,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:04.1831009Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 4769389,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:04.1831009Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44705.0859375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:04.1831009Z"
+        },
+        "LanInformationArray": {
+          "Array": [
+            {
+              "InterfaceName": "Conexión de Area local",
+              "Connected": false,
+              "IPAddress": "169.254.57.188",
+              "BytesSent": 0,
+              "BytesReceived": 0,
+              "SampleType": 5,
+              "TimeStamp": "2015-05-28T09:42:04.3171086Z"
+            },
+            {
+              "InterfaceName": "Segunda conexion!",
+              "Connected": true,
+              "IPAddress": "169.254.57.188",
+              "BytesSent": 100,
+              "BytesReceived": 1000,
+              "SampleType": 5,
+              "TimeStamp": "2015-05-28T09:42:04.3171086Z"
+            }
+          ],
+          "SampleType": 6,
+          "TimeStamp": "2015-05-28T09:42:04.4531164Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:05.1951588Z",
+      "Properties": {
+        "CPU": {
+          "Value": 33.46492004394531,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:05.1951588Z"
+        },
+        "UsedRAM": {
+          "Value": 3777,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:05.1961589Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00038183157448656857,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:05.1961589Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0003249961300753057,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:05.1961589Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1395984.625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:05.1971589Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 812072.0625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:05.1971589Z"
+        },
+        "WiFiSignalStrength": {
+          "Value": 34,
+          "SampleType": 3,
+          "TimeStamp": "2015-05-28T09:42:05.1971589Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:06.2092168Z",
+      "Properties": {
+        "CPU": {
+          "Value": 21.927040100097656,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:06.2092168Z"
+        },
+        "UsedRAM": {
+          "Value": 3774,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:06.2102169Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003699824446812272,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:06.2102169Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0227999035269022,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:06.2112169Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1032041.5,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:06.212217Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 48351.05859375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:06.2132171Z"
+        },
+        "WiFiConnected": {
+          "Value": false,
+          "SampleType": 1,
+          "TimeStamp": "2015-05-28T09:42:06.2152172Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:07.2232748Z",
+      "Properties": {
+        "CPU": {
+          "Value": 10.389168739318848,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:07.2232748Z"
+        },
+        "UsedRAM": {
+          "Value": 3775,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:07.2242749Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003454703837633133,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:07.2242749Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0003862007870338857,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:07.226275Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1149780.875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:07.2272751Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44409.33203125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:07.2282751Z"
+        },
+        "WiFiIPAddress": {
+          "Value": "169.254.57.188",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:07.2282751Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:08.2373328Z",
+      "Properties": {
+        "CPU": {
+          "Value": 15.47227668762207,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:08.2373328Z"
+        },
+        "UsedRAM": {
+          "Value": 3776,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:08.2393329Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003908765211235732,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:08.240333Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0022200087551027536,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:08.2413331Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1065016.5,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:08.2423331Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 48408.265625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:08.2433332Z"
+        },
+        "WiFiProtocol": {
+          "Value": "802.11n",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:08.2443332Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:09.2513908Z",
+      "Properties": {
+        "CPU": {
+          "Value": 15.305383682250977,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:09.2513908Z"
+        },
+        "UsedRAM": {
+          "Value": 3777,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:09.254391Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003636639448814094,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:09.2553911Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.002527298405766487,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:09.2553911Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1091521.75,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:09.2563911Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 48476.3203125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:09.2573912Z"
+        },
+        "WiFiEncryptionAlgorithm": {
+          "Value": "WPA2",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:09.2583912Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:10.2724492Z",
+      "Properties": {
+        "CPU": {
+          "Value": 18.722333908081055,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:10.2724492Z"
+        },
+        "UsedRAM": {
+          "Value": 3770,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:10.2784496Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003666818083729595,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:10.2804497Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.02539987303316593,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:10.2814498Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1022587.25,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:10.2814498Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 39939.86328125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:10.2824498Z"
+        },
+        "WiFiBytesSent": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:10.2834499Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:11.2795068Z",
+      "Properties": {
+        "CPU": {
+          "Value": 23.70793914794922,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:11.2795068Z"
+        },
+        "UsedRAM": {
+          "Value": 3779,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:11.2805069Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003699824446812272,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:11.2805069Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.004266667179763317,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:11.281507Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1070304.625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:11.282507Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 53253.3125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:11.282507Z"
+        },
+        "WiFiBytesReceived": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:11.2835071Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:12.2935648Z",
+      "Properties": {
+        "CPU": {
+          "Value": 14.235132217407227,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:12.2935648Z"
+        },
+        "UsedRAM": {
+          "Value": 3780,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:12.295565Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.000462478055851534,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:12.296565Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.024500146508216858,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:12.2975651Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1032333.4375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:12.2975651Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 32264.423828125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:12.2985651Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:13.3086229Z",
+      "Properties": {
+        "CPU": {
+          "Value": 12.57081413269043,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:13.3086229Z"
+        },
+        "UsedRAM": {
+          "Value": 3781,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:13.3126231Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00043002120219171047,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:13.3126231Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.004424936603754759,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:13.3136232Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1047967.25,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:13.3136232Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44358.82421875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:13.3146232Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:14.3216808Z",
+      "Properties": {
+        "CPU": {
+          "Value": 13.123210906982422,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:14.3216808Z"
+        },
+        "UsedRAM": {
+          "Value": 3781,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:14.3226809Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00041000827332027256,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:14.3226809Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.023700200021266937,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:14.323681Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1037910.875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:14.323681Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44597.83203125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:14.324681Z"
+        },
+        "LanInformationArray": {
+          "Array": [
+            {
+              "InterfaceName": "ConexiÃ³n de Ã¡rea local",
+              "Connected": false,
+              "IPAddress": "169.254.57.188",
+              "BytesSent": 0,
+              "BytesReceived": 0,
+              "SampleType": 5,
+              "TimeStamp": "2015-05-28T09:42:14.4706894Z"
+            }
+          ],
+          "SampleType": 6,
+          "TimeStamp": "2015-05-28T09:42:14.5886961Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:15.3357388Z",
+      "Properties": {
+        "CPU": {
+          "Value": 17.311899185180664,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:15.3357388Z"
+        },
+        "UsedRAM": {
+          "Value": 3782,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:15.3367389Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003363476716913283,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:15.3367389Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0034333656076341867,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:15.337739Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1161941,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:15.337739Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 52517.96484375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:15.338739Z"
+        },
+        "WiFiSignalStrength": {
+          "Value": 34,
+          "SampleType": 3,
+          "TimeStamp": "2015-05-28T09:42:15.338739Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:16.3487968Z",
+      "Properties": {
+        "CPU": {
+          "Value": 20.695043563842773,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:16.3487968Z"
+        },
+        "UsedRAM": {
+          "Value": 3782,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:16.3507969Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003111220430582762,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:16.351797Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00553329661488533,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:16.351797Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1076302.25,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:16.352797Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 48471.578125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:16.352797Z"
+        },
+        "WiFiConnected": {
+          "Value": false,
+          "SampleType": 1,
+          "TimeStamp": "2015-05-28T09:42:16.352797Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:17.3648549Z",
+      "Properties": {
+        "CPU": {
+          "Value": 17.85850715637207,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:17.3648549Z"
+        },
+        "UsedRAM": {
+          "Value": 3782,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:17.3758555Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003444452304393053,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:17.3768556Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0014600023860111833,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:17.3778556Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1134712.125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:17.3778556Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 35914.62890625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:17.3788557Z"
+        },
+        "WiFiIPAddress": {
+          "Value": "169.254.57.188",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:17.3798558Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:18.3769128Z",
+      "Properties": {
+        "CPU": {
+          "Value": 26.854644775390625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:18.3769128Z"
+        },
+        "UsedRAM": {
+          "Value": 3784,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:18.3779128Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003399915585760027,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:18.3779128Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.01289978064596653,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:18.3789129Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1057852.125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:18.3789129Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 49115.98828125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:18.379913Z"
+        },
+        "WiFiProtocol": {
+          "Value": "802.11n",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:18.379913Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:19.3909708Z",
+      "Properties": {
+        "CPU": {
+          "Value": 20.695053100585938,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:19.3909708Z"
+        },
+        "UsedRAM": {
+          "Value": 3785,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:19.3919708Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003092692932114005,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:19.393971Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0017206904012709856,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:19.393971Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1430239,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:19.394971Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 2693801,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:19.394971Z"
+        },
+        "WiFiEncryptionAlgorithm": {
+          "Value": "WPA2",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:19.3959711Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:20.4060288Z",
+      "Properties": {
+        "CPU": {
+          "Value": 14.403949737548828,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:20.4060288Z"
+        },
+        "UsedRAM": {
+          "Value": 3786,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:20.4070289Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00122225156519562,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:20.408029Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.03040025196969509,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:20.409029Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1033885.9375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:20.409029Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 40383.8984375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:20.4100291Z"
+        },
+        "WiFiBytesSent": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:20.4110291Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:21.4200868Z",
+      "Properties": {
+        "CPU": {
+          "Value": 15.690357208251953,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:21.4200868Z"
+        },
+        "UsedRAM": {
+          "Value": 3787,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:21.4210869Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00042726367246359587,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:21.4210869Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0016625048592686653,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:21.422087Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1260425.5,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:21.422087Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 64694.3203125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:21.423087Z"
+        },
+        "WiFiBytesReceived": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:21.423087Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:22.4331448Z",
+      "Properties": {
+        "CPU": {
+          "Value": 18.00022315979004,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:22.4331448Z"
+        },
+        "UsedRAM": {
+          "Value": 3785,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:22.4341448Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00045556476106867194,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:22.4351449Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.02499961480498314,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:22.436145Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1032589.0625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:22.437145Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44349.98828125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:22.4381451Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:23.4472028Z",
+      "Properties": {
+        "CPU": {
+          "Value": 8.466182708740234,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:23.4472028Z"
+        },
+        "UsedRAM": {
+          "Value": 3786,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:23.4482028Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00036361211095936596,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:23.4492029Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0009272843017242849,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:23.4492029Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1267683,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:23.450203Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 52628.94921875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:23.450203Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:24.4612608Z",
+      "Properties": {
+        "CPU": {
+          "Value": 16.54270362854004,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:24.4612608Z"
+        },
+        "UsedRAM": {
+          "Value": 3786,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:24.4622608Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003889183863066137,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:24.4622608Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0033249384723603725,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:24.4632609Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1070551.875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:24.464261Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 48478.203125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:24.464261Z"
+        },
+        "LyncConnection": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:24.465261Z"
+        },
+        "LanInformationArray": {
+          "Array": [
+            {
+              "InterfaceName": "ConexiÃ³n de Ã¡rea local",
+              "Connected": false,
+              "IPAddress": "169.254.57.188",
+              "BytesSent": 0,
+              "BytesReceived": 0,
+              "SampleType": 5,
+              "TimeStamp": "2015-05-28T09:42:24.465261Z"
+            }
+          ],
+          "SampleType": 6,
+          "TimeStamp": "2015-05-28T09:42:24.4682612Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:25.4753188Z",
+      "Properties": {
+        "CPU": {
+          "Value": 23.850027084350586,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:25.4753188Z"
+        },
+        "UsedRAM": {
+          "Value": 3777,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:25.4753188Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00035002653021365404,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:25.4753188Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0016333431703969836,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:25.4753188Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1220976.125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:25.4753188Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 60718.1796875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:25.4763188Z"
+        },
+        "WiFiSignalStrength": {
+          "Value": 34,
+          "SampleType": 3,
+          "TimeStamp": "2015-05-28T09:42:25.4763188Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:26.4893768Z",
+      "Properties": {
+        "CPU": {
+          "Value": 19.61945915222168,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:26.4893768Z"
+        },
+        "UsedRAM": {
+          "Value": 3777,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:26.4903768Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00031872428371571004,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:26.4903768Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0008656229474581778,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:26.4913769Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1983465.875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:26.492377Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 108802.9453125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:26.492377Z"
+        },
+        "WiFiConnected": {
+          "Value": false,
+          "SampleType": 1,
+          "TimeStamp": "2015-05-28T09:42:26.493377Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:27.5034348Z",
+      "Properties": {
+        "CPU": {
+          "Value": 20.77326011657715,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:27.5034348Z"
+        },
+        "UsedRAM": {
+          "Value": 3776,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:27.5044349Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003199976636096835,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:27.5054349Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0003809541231021285,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:27.5054349Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1454671.375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:27.5054349Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 442158.96875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:27.5054349Z"
+        },
+        "WiFiIPAddress": {
+          "Value": "169.254.57.188",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:27.506435Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:28.5174928Z",
+      "Properties": {
+        "CPU": {
+          "Value": 30.772747039794922,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:28.5174928Z"
+        },
+        "UsedRAM": {
+          "Value": 3770,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:28.5254933Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0005000379169359803,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:28.5254933Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.01739983633160591,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:28.5264933Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1027257.3125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:28.5264933Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 52148.98046875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:28.5274934Z"
+        },
+        "WiFiProtocol": {
+          "Value": "802.11n",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:28.5274934Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:29.5315508Z",
+      "Properties": {
+        "CPU": {
+          "Value": 29.68830108642578,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:29.5315508Z"
+        },
+        "UsedRAM": {
+          "Value": 3749,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:29.5325509Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003124962968286127,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:29.5325509Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0001447478134650737,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:29.5335509Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 330288.5625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:29.5335509Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 1844802.125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:29.534551Z"
+        },
+        "WiFiEncryptionAlgorithm": {
+          "Value": "WPA2",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:29.534551Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:30.5456088Z",
+      "Properties": {
+        "CPU": {
+          "Value": 12.610552787780762,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:30.5456088Z"
+        },
+        "UsedRAM": {
+          "Value": 3749,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:30.5466089Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00037003945908509195,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:30.5476089Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:30.5476089Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:30.548609Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 56521.890625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:30.548609Z"
+        },
+        "WiFiBytesSent": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:30.549609Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:31.5596668Z",
+      "Properties": {
+        "CPU": {
+          "Value": 13.850529670715332,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:31.5596668Z"
+        },
+        "UsedRAM": {
+          "Value": 3756,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:31.5606669Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003272768226452172,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:31.5606669Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00019999683718197048,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:31.5606669Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 275987.03125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:31.5616669Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44483.328125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:31.5616669Z"
+        },
+        "WiFiBytesReceived": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:31.562667Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:32.5737248Z",
+      "Properties": {
+        "CPU": {
+          "Value": 10.773762702941895,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:32.5737248Z"
+        },
+        "UsedRAM": {
+          "Value": 3756,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:32.5747249Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00043999915942549706,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:32.5757249Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:32.5757249Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:32.5757249Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 48433.5859375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:32.576725Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:33.5877828Z",
+      "Properties": {
+        "CPU": {
+          "Value": 16.927295684814453,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:33.5877828Z"
+        },
+        "UsedRAM": {
+          "Value": 3755,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:33.5887829Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00034998852061107755,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:33.5897829Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0002953473594971001,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:33.590783Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 771107.5,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:33.590783Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 149374.5,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:33.590783Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:34.6018408Z",
+      "Properties": {
+        "CPU": {
+          "Value": 11.927552223205566,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:34.6018408Z"
+        },
+        "UsedRAM": {
+          "Value": 3756,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:34.6028409Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00042143609607592225,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:34.6028409Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0002999087155330926,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:34.6038409Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 4042.82373046875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:34.6038409Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 149585.90625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:34.604841Z"
+        },
+        "LanInformationArray": {
+          "Array": [
+            {
+              "InterfaceName": "ConexiÃ³n de Ã¡rea local",
+              "Connected": false,
+              "IPAddress": "169.254.57.188",
+              "BytesSent": 0,
+              "BytesReceived": 0,
+              "SampleType": 5,
+              "TimeStamp": "2015-05-28T09:42:34.744849Z"
+            }
+          ],
+          "SampleType": 6,
+          "TimeStamp": "2015-05-28T09:42:34.866856Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:35.6158988Z",
+      "Properties": {
+        "CPU": {
+          "Value": 19.619468688964844,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:35.6158988Z"
+        },
+        "UsedRAM": {
+          "Value": 3747,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:35.6158988Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00029997207457199693,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:35.6168989Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0001725045294733718,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:35.6168989Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 319256.25,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:35.6178989Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 52541.75,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:35.6178989Z"
+        },
+        "WiFiSignalStrength": {
+          "Value": 34,
+          "SampleType": 3,
+          "TimeStamp": "2015-05-28T09:42:35.6178989Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:36.6289567Z",
+      "Properties": {
+        "CPU": {
+          "Value": 12.610552787780762,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:36.6289567Z"
+        },
+        "UsedRAM": {
+          "Value": 3756,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:36.6299568Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0004083357925992459,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:36.6299568Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0007135121268220246,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:36.6309569Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1183302.25,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:36.6309569Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 80796.546875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:36.6319569Z"
+        },
+        "WiFiConnected": {
+          "Value": false,
+          "SampleType": 1,
+          "TimeStamp": "2015-05-28T09:42:36.6319569Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:37.6430147Z",
+      "Properties": {
+        "CPU": {
+          "Value": 10.004575729370117,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:37.6430147Z"
+        },
+        "UsedRAM": {
+          "Value": 3757,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:37.648015Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00038334340206347406,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:37.648015Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0012439939891919494,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:37.6490151Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1351450.25,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:37.6500151Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 64341.1953125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:37.6500151Z"
+        },
+        "WiFiIPAddress": {
+          "Value": "169.254.57.188",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:37.6510152Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:38.6570727Z",
+      "Properties": {
+        "CPU": {
+          "Value": 16.158100128173828,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:38.6570727Z"
+        },
+        "UsedRAM": {
+          "Value": 3757,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:38.6580728Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00034167355624958873,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:38.6580728Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0007418557070195675,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:38.6590729Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 1239184.625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:38.6590729Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 52743.11328125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:38.6600729Z"
+        },
+        "WiFiProtocol": {
+          "Value": "802.11n",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:38.6600729Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:39.6711307Z",
+      "Properties": {
+        "CPU": {
+          "Value": 11.158355712890625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:39.6711307Z"
+        },
+        "UsedRAM": {
+          "Value": 3758,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:39.6721308Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00041998623055405915,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:39.6721308Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00023000604414846748,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:39.6731309Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 92934.21875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:39.6731309Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 60608.7265625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:39.6741309Z"
+        },
+        "WiFiEncryptionAlgorithm": {
+          "Value": "WPA2",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:39.6741309Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:40.6851887Z",
+      "Properties": {
+        "CPU": {
+          "Value": 21.92704963684082,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:40.6851887Z"
+        },
+        "UsedRAM": {
+          "Value": 3756,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:40.6851887Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0002545543829910457,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:40.6851887Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00018096067651640624,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:40.6851887Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 184130.453125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:40.6851887Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 45538.55859375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:40.6861888Z"
+        },
+        "WiFiBytesSent": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:40.6861888Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:41.6992467Z",
+      "Properties": {
+        "CPU": {
+          "Value": 22.772390365600586,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:41.6992467Z"
+        },
+        "UsedRAM": {
+          "Value": 3758,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:41.7012469Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00028460187604650855,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:41.7022469Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0001600035757292062,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:41.7022469Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 438281,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:41.703247Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 76465.140625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:41.703247Z"
+        },
+        "WiFiBytesReceived": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:41.704247Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:42.7133047Z",
+      "Properties": {
+        "CPU": {
+          "Value": 18.770170211791992,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:42.7133047Z"
+        },
+        "UsedRAM": {
+          "Value": 3759,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:42.7133047Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003592696157284081,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:42.7143048Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:42.7143048Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:42.7153049Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 190270.671875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:42.7153049Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:43.7273627Z",
+      "Properties": {
+        "CPU": {
+          "Value": 38.08005905151367,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:43.7273627Z"
+        },
+        "UsedRAM": {
+          "Value": 3708,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:43.7273627Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00023331301053985953,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:43.7283628Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00011071453627664596,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:43.7283628Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 201938.671875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:43.7293629Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 177705.53125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:43.7293629Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:44.7414207Z",
+      "Properties": {
+        "CPU": {
+          "Value": 18.465679168701172,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:44.7414207Z"
+        },
+        "UsedRAM": {
+          "Value": 3709,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:44.7424208Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003666818083729595,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:44.7444209Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00019955902826040983,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:44.7444209Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 4030.4326171875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:44.745421Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 40303.71484375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:44.745421Z"
+        },
+        "LanInformationArray": {
+          "Array": [
+            {
+              "InterfaceName": "ConexiÃ³n de Ã¡rea local",
+              "Connected": false,
+              "IPAddress": "169.254.57.188",
+              "BytesSent": 0,
+              "BytesReceived": 0,
+              "SampleType": 5,
+              "TimeStamp": "2015-05-28T09:42:44.8814288Z"
+            }
+          ],
+          "SampleType": 6,
+          "TimeStamp": "2015-05-28T09:42:45.0294372Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:45.7554788Z",
+      "Properties": {
+        "CPU": {
+          "Value": 14.619734764099121,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:45.7554788Z"
+        },
+        "UsedRAM": {
+          "Value": 3709,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:45.7564788Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0004750217776745558,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:45.7564788Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00016002733900677413,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:45.7574789Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 182068.78125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:45.7574789Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44506.3046875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:45.7584789Z"
+        },
+        "WiFiSignalStrength": {
+          "Value": 34,
+          "SampleType": 3,
+          "TimeStamp": "2015-05-28T09:42:45.7584789Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:46.7695368Z",
+      "Properties": {
+        "CPU": {
+          "Value": 18.081085205078125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:46.7695368Z"
+        },
+        "UsedRAM": {
+          "Value": 3708,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:46.7695368Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0004221782146487385,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:46.7705368Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:46.7705368Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:46.7715369Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 52520.1484375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:46.7715369Z"
+        },
+        "WiFiConnected": {
+          "Value": false,
+          "SampleType": 1,
+          "TimeStamp": "2015-05-28T09:42:46.7725369Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:47.7835948Z",
+      "Properties": {
+        "CPU": {
+          "Value": 14.319615364074707,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:47.7835948Z"
+        },
+        "UsedRAM": {
+          "Value": 3708,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:47.7855949Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0004222415736876428,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:47.7855949Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0002178451541112736,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:47.788595Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 203782.953125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:47.788595Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 48311.41796875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:47.7895951Z"
+        },
+        "WiFiIPAddress": {
+          "Value": "169.254.57.188",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:47.7895951Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:48.7976528Z",
+      "Properties": {
+        "CPU": {
+          "Value": 11.070659637451172,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:48.7976528Z"
+        },
+        "UsedRAM": {
+          "Value": 3708,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:48.7986528Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003600044874474406,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:48.7986528Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:48.7996529Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:48.7996529Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 48620.2421875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:48.8006529Z"
+        },
+        "WiFiProtocol": {
+          "Value": "802.11n",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:48.8006529Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:49.8117108Z",
+      "Properties": {
+        "CPU": {
+          "Value": 7.787929534912109,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:49.8117108Z"
+        },
+        "UsedRAM": {
+          "Value": 3709,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:49.8127108Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0004222415736876428,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:49.8137109Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0001857120805652812,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:49.8137109Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 172661.640625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:49.8137109Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 40388.78125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:49.8147109Z"
+        },
+        "WiFiEncryptionAlgorithm": {
+          "Value": "WPA2",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:49.8147109Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:50.8257688Z",
+      "Properties": {
+        "CPU": {
+          "Value": 5.681007385253906,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:50.8257688Z"
+        },
+        "UsedRAM": {
+          "Value": 3709,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:50.8267688Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003888550272677094,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:50.8267688Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:50.8277689Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:50.829769Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 36303.40625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:50.829769Z"
+        },
+        "WiFiBytesSent": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:50.830769Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:51.8398268Z",
+      "Properties": {
+        "CPU": {
+          "Value": 9.619972229003906,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:51.8398268Z"
+        },
+        "UsedRAM": {
+          "Value": 3709,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:51.8408268Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0004222415736876428,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:51.8408268Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00023890066950116307,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:51.8418269Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 154209.546875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:51.8418269Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 48530.62890625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:51.8428269Z"
+        },
+        "WiFiBytesReceived": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:51.8428269Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:52.8548848Z",
+      "Properties": {
+        "CPU": {
+          "Value": 11.245879173278809,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:52.8548848Z"
+        },
+        "UsedRAM": {
+          "Value": 3704,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:52.8708857Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00031874209525994956,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:52.8708857Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00015536077262368053,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:52.8718858Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 234248.484375,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:52.8718858Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 139297.203125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:52.8718858Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:53.8689428Z",
+      "Properties": {
+        "CPU": {
+          "Value": 11.717085838317871,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:53.8689428Z"
+        },
+        "UsedRAM": {
+          "Value": 3707,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:53.8709429Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.000444478151621297,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:53.871943Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00018744294357020408,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:53.871943Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 43918.36328125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:53.872943Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44926.2578125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:53.8749432Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:54.8830008Z",
+      "Properties": {
+        "CPU": {
+          "Value": 7.1292266845703125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:54.8830008Z"
+        },
+        "UsedRAM": {
+          "Value": 3707,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:54.8840009Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.006777784787118435,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:54.8840009Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00040006835479289293,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:54.8850009Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 40511.26953125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:54.8850009Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44569.88671875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:54.886001Z"
+        },
+        "LyncConnection": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:54.886001Z"
+        },
+        "LanInformationArray": {
+          "Array": [
+            {
+              "InterfaceName": "ConexiÃ³n de Ã¡rea local",
+              "Connected": false,
+              "IPAddress": "169.254.57.188",
+              "BytesSent": 0,
+              "BytesReceived": 0,
+              "SampleType": 5,
+              "TimeStamp": "2015-05-28T09:42:54.9980074Z"
+            }
+          ],
+          "SampleType": 6,
+          "TimeStamp": "2015-05-28T09:42:54.9990074Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:55.8950587Z",
+      "Properties": {
+        "CPU": {
+          "Value": 6.358509540557861,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:55.8950587Z"
+        },
+        "UsedRAM": {
+          "Value": 3707,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:55.8960588Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0004999745870009065,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:55.8960588Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.0001729691430227831,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:55.8970588Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 311109.5,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:55.8980589Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44516.0546875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:55.8980589Z"
+        },
+        "WiFiSignalStrength": {
+          "Value": 34,
+          "SampleType": 3,
+          "TimeStamp": "2015-05-28T09:42:55.8980589Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:56.9091167Z",
+      "Properties": {
+        "CPU": {
+          "Value": 4.235635280609131,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:56.9091167Z"
+        },
+        "UsedRAM": {
+          "Value": 3707,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:56.9101168Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0004800249880645424,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:56.9101168Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:56.9111168Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 0,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:56.9111168Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 44377.95703125,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:56.9131169Z"
+        },
+        "WiFiConnected": {
+          "Value": false,
+          "SampleType": 1,
+          "TimeStamp": "2015-05-28T09:42:56.914117Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-28T09:42:57.9241748Z",
+      "Properties": {
+        "CPU": {
+          "Value": 8.940582275390625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:57.9241748Z"
+        },
+        "UsedRAM": {
+          "Value": 3707,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:57.9241748Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.0003888550272677094,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:57.9251748Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00022507407993543893,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:57.9251748Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 26746.98046875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:57.9261749Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 48528.66015625,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:57.9261749Z"
+        },
+        "WiFiIPAddress": {
+          "Value": "169.254.57.188",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:57.9261749Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    },
+    {
+      "SampleDate": "2015-05-29T09:42:58.9372327Z",
+      "Properties": {
+        "CPU": {
+          "Value": 7.220900058746338,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:58.9372327Z"
+        },
+        "UsedRAM": {
+          "Value": 3707,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:58.9382328Z"
+        },
+        "DiskReadLatency": {
+          "Value": 0.00043002120219171047,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:58.9382328Z"
+        },
+        "DiskWriteLatency": {
+          "Value": 0.00025999691570177674,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:58.9392328Z"
+        },
+        "DiskWriteMBPerSecond": {
+          "Value": 31796.779296875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:58.9402329Z"
+        },
+        "DiskReadMBPerSecond": {
+          "Value": 60549.3671875,
+          "SampleType": 0,
+          "TimeStamp": "2015-05-28T09:42:58.9402329Z"
+        },
+        "WiFiProtocol": {
+          "Value": "802.11n",
+          "SampleType": 2,
+          "TimeStamp": "2015-05-28T09:42:58.9412329Z"
+        }
+      },
+      "State": 0,
+      "Message": null,
+      "ContainsFeedback": false,
+      "UserMood": null
+    }
+  ],
+  "Domain": "TheDomain",
+  "InstalledRam": 6038,
+  "KeyboardLanguage": "Español",
+  "MachineId": "09a24477-c017",
+  "OperatingSystemInformation": {
+    "ProductName": "Windows 7 Enterprise",
+    "EditionID": "Enterprise",
+    "InstallationType": "Client",
+    "CurrentVersion": "6.1",
+    "CurrentType": "Multiprocessor Free",
+    "CurrentBuild": "7601"
+  },
+  "ProcessorArchitecture": "x64",
+  "ProcessorCapabilities": "Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz",
+  "SentOn": "2015-05-28T09:42:59.4372613Z",
+  "SystemLanguage": "Inglés (Estados Unidos)",
+  "User": "TheDomain\\TheUser",
+  "Version": 0
+}
